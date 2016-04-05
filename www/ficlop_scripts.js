@@ -34,7 +34,7 @@ function loginReply(error, authData)
 
 function loginWithCredentials()
 {
-	if (myFirebaseRef == null) myFirebaseRef = new Firebase("https://brilliant-fire-2109.firebaseio.com/");
+	if (myFirebaseRef == null) myFirebaseRef = new Firebase("https://scorching-heat-6948.firebaseio.com/");
     myFirebaseRef.authWithPassword({
                                     "email"    : document.getElementById("user_email_field").value,
                                     "password" : document.getElementById("password_field").value,
